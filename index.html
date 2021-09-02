@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <title>Add Books to the Library!</title>
+    </head>
+    <body>
+        <div class='pageHeader'>Welcome to the Library!</div>
+        <div class='showForm'>
+            <button id='showFormButton' type='button'>Add Book to Library</button>
+        </div>
+        <div class='inputFields' style='display: none;'>
+            <form class='inputs'>
+                <label for='booktitle'>Book Title:</label><br>
+                <input type='text' id='booktitle' name='Title' required><br>
+                <label for='bookauthor'>Author:</label><br>
+                <input type='text' id='bookauthor' name='Author' required><br>
+                <label for='bookpages'>Number of Pages:</label><br>
+                <input type='text' id='bookpages' name='NumberOfPages' required><br>
+                <label for='bookread'>Previously Read?</label>
+                <input type='checkbox' id='bookread' name='PreviouslyRead'><br>
+                <input id='inputButton' type='submit' value='Submit'>
+            </form>
+        </div>
+        <div class='cards-container' id='container'></div>
+    </body>
+</html>

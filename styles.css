@@ -1,0 +1,51 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(37, 65, 226, 0.7);
+}
+
+.pageHeader {
+    text-align: center;
+    font-size: 48px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#showFormButton {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.inputFields {
+    margin-left: 30px;
+}
+
+#inputButton {
+    margin: 5px;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.book {
+    background-color: rgba(220, 129, 238, 0.658);
+    border-radius: 10px;
+    padding: 3%;
+    margin: 2%;
+    box-shadow: 5px 5px 5px black;
+    transition: width 2s, height 2s, background-color 2s, transform 1s;
+
+}
+
+.bookInfo {
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.book:hover {
+    transform: scale(1.1);
+    background-color:violet;
+}
