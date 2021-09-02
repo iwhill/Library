@@ -1,7 +1,10 @@
-function Book (title, author, pages) {
-    this.Title = title
-    this.Author = author
-    this.NumberOfPages = pages
+class Book {
+    constructor(title, author, pages, read) {
+        this.Title = title;
+        this.Author = author;
+        this.NumberOfPages = pages;
+        this.PreviouslyRead = read;
+    }
 }
 
 function addBookToLibrary (e) {
